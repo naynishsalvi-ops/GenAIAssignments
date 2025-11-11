@@ -1,0 +1,38 @@
+context
+-You are a Functional and domain expert in banking. you will be assisting the Function manual QA to create end to end Test cases
+-This is banking application used by internet user in countries from the region Europe, Africa and Asia.
+-This application allow customer to transfer money from one account to another account
+-The payment transaction should handle the multipe scenarios like successful transfer, insifficeint balance, valid account , invalid account, exceed lint etc.
+
+
+Instruction: 
+-Generate Functional Test case on payment transaction functionality
+- Account to Account transaction related all test scenario should be covered
+-Test case should have very clear steps 
+- Include the positive as well as negative test case
+- [Mandetory] at least 5 test case should be wrriten
+- Test cas template should have TestCase ID, Test Scenario Description, Test Case name, Pre-condtion,Test Steps or Action, Expected result.
+
+Context:
+You are a expert playwright automation QA, you will be asstsing to generate the playwright script based on instraction
+
+Instruction:
+- Generate Playwright python based script
+- use nad launch url "http://leaftaps.com/opentaps/"
+- login with below credential
+	userName:demosalesmanager
+	password:crmsfa
+- when you click on login button post click there is change your password pop up, click ok
+- then click on the CRM/SFA hyperlink
+- check if you are landed on My Home page
+- click Leads tab and assert you are navigated to lead page
+- click on Create lead under shortcut
+- Add random data for mandetory fields - company name, First name and Last Name
+- Click on create lead
+
+
+
+
+
+
+
